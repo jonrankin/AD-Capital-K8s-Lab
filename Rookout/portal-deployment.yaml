@@ -36,6 +36,7 @@ spec:
               name: mysecret
         - name: ROLE
           value: portal
+        - name: APPDYNAMICS_AGENT_NODE_NAME
           valueFrom:
             fieldRef:
               fieldPath: metadata.name
